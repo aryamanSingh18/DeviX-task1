@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Light theme (default) */
+:root {
+  --ink-950: #F7F7FB;
+  --ink-900: #FFFFFF;
+  --ink-800: #F0F1F5;
+  --ink-700: #E1E3EA;
+  --ink-600: #C7CBD6;
+  --mist-400: #6B7280;
+  --mist-200: #374151;
+  --mist-50: #111318;
+}
+
+/* Dark theme, applied when <html> has the "dark" class */
+html.dark {
+  --ink-950: #0B0D12;
+  --ink-900: #12151C;
+  --ink-800: #1A1E27;
+  --ink-700: #242935;
+  --ink-600: #333A48;
+  --mist-400: #8B92A5;
+  --mist-200: #C7CBD6;
+  --mist-50: #F0F1F4;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply font-body;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #333a48;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5e52c9;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.msg-enter {
+  animation: fade-in-up 0.2s ease-out;
+}
