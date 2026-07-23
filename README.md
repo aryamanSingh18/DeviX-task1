@@ -38,6 +38,12 @@ in one of five public rooms.
 **Username editor**
 ![Username edit](screenshots/username-edit.png)
 
+
+🔗 **Live Demo:** 
+[https://devi-x-task1.vercel.app](https://devi-x-task1.vercel.app)
+
+
+
 ## Getting started
 
 ### 1. Install dependencies
