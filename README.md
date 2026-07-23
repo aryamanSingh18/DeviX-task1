@@ -27,6 +27,16 @@ in one of five public rooms.
   cleaned up from the database)
 - ✅ Responsive layout — mobile, tablet, laptop, desktop
 - ✅ Dark mode by default with a toggle
+## Screenshots
+
+**Main chat view**
+![Chat view](screenshots/chat-view.png)
+
+**Room sidebar**
+![Sidebar rooms](screenshots/sidebar-rooms.png)
+
+**Username editor**
+![Username edit](screenshots/username-edit.png)
 
 ## Getting started
 
